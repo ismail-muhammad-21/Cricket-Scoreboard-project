@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Scorecard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="socrecard">
+        <h1 class="heading">Cricket Scoreboard</h1>
+        <div class="score">
+          <div class="home">
+            <h1 class="home-heading">Home</h1>
+            <div class="number-container" id="home-display">
+              0
+            </div>
+            <div class="btn-container">
+              <button class="btn1" data-home-pts="1">+1</button>
+              <button class="btn2" data-home-pts="2">+2</button>
+              <button class="btn3" data-home-pts="3">+3</button>
+              <button class="btn4" data-home-pts="4">+4</button>
+              <button class="btn5" data-home-pts="6">+6</button>
+              
+            </div>
+          </div>
+          <div class="away">
+            <h1 class="away-heading">Away</h1>
+            <div class="number-container" id="away-display">
+             0
+            </div>
+            <div class="btn-container">
+              <button class="btn1" data-away-pts="1">+1</button>
+              <button class="btn2" data-away-pts="2">+2</button>
+              <button class="btn3" data-away-pts="3">+3</button>
+              <button class="btn4" data-away-pts="4">+4</button>
+              <button class="btn5" data-away-pts="6">+6</button>
+            </div>
+          </div>
+        </div>
+        <div class="start-game">
+          <button id="new-game" class="new-game">NEW GAME</button>
+        </div>
+      </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
